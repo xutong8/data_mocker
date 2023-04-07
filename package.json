@@ -12,6 +12,7 @@
     "start": "ts-node ./src/index.ts"
   },
   "dependencies": {
+    "dayjs": "^1.11.7",
     "mysql": "^2.18.1",
     "ts-node": "^10.9.1"
   }

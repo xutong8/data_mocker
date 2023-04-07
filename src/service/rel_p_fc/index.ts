@@ -3,7 +3,7 @@ import db from "../../db";
 
 const inventory_max = 500;
 
-async function create_insert_rel_p_fc() {
+async function create_rel_p_fc() {
   db.connect();
   for (let i = 0; i < 1000; i++) {
     const productId = i + 1;
@@ -16,4 +16,4 @@ async function create_insert_rel_p_fc() {
   db.end();
 }
 
-export default create_insert_rel_p_fc;
+export default create_rel_p_fc;

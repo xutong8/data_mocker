@@ -4,11 +4,12 @@
     "lib": ["es6"],                                      
     "module": "commonjs",                               
     "rootDir": "src",                                                       
-    "outDir": "build",                                   
-    "esModuleInterop": true,                             
+    "outDir": "build",                                                               
     "forceConsistentCasingInFileNames": true,            
     "strict": true,                                      
     "noImplicitAny": true,                            
-    "skipLibCheck": true                                 
+    "skipLibCheck": true,
+    "esModuleInterop": true, 
+    "allowSyntheticDefaultImports": true,                                 
   }
 }

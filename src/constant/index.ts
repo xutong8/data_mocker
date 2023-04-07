@@ -51,3 +51,18 @@ export const rel_p_fc = {
   table_name: "rel_p_fc",
   columns: ["product_id", "filter_cake_id", "inventory"],
 };
+
+export const rel_fc_fc = {
+  table_name: "rel_fc_fc",
+  columns: ["filter_cake_id", "filter_cake_id_used", "inventory"],
+};
+
+export const rel_date_rm = {
+  table_name: "rel_date_rm",
+  columns: ["raw_material_id", "raw_material_date", "price"],
+};
+
+export const rel_date_fc = {
+  table_name: "rel_date_fc",
+  columns: ["filter_cake_id", "filter_cake_date", "price"],
+};
