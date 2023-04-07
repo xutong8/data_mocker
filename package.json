@@ -1,0 +1,18 @@
+{
+  "name": "data_mocker",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "ts-node": "^10.9.1"
+  }
+}
