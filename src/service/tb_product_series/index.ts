@@ -7,7 +7,7 @@ async function create_tb_product_series() {
   db.connect();
   for (let i = 0; i < 1000; i++) {
     const pos = Math.floor(Math.random() * functions.length);
-    const values = [`产业系列名称${(Math.floor(Math.random() * (i + 1) + 1))}`, `${functions[pos]}`];
+    const values = [`产业系列名称${i + 1}`, `${functions[pos]}`];
     const sql = insert_tb_product_series(values.length);
     await db.query(sql, values);
   }
